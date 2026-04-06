@@ -1,0 +1,582 @@
+{
+  "schema_version": "1.0",
+  "schema_notes": "Each user file powers one instance of the Molbak's Garden Guide prototype. To create a new demo: duplicate this file, update user/spaces/plants/assessment from the OpenClaw output, and point the app at the new file.",
+
+  "user": {
+    "id": "morten-01",
+    "name": "Morten",
+    "zip": "98117",
+    "zone": "8b",
+    "zone_label": "Zone 8b",
+    "city": "Seattle",
+    "state": "WA",
+    "experience": "comfortable",
+    "time_availability": "moderate",
+    "time_label": "~30 min/week",
+    "archetype": "The Intentional Designer",
+    "archetype_description": "Design-conscious gardener who thinks about color contrast, texture variation, and year-round structure. Good taste in plants with mixed success in execution — outdoor landscape is stronger than indoor collection.",
+    "member_since": "2026-04-06",
+    "tier": "free"
+  },
+
+  "weather": {
+    "current_temp": "58°F",
+    "condition": "Sunny",
+    "forecast_note": "Clear skies through Wednesday",
+    "planting_status": "good",
+    "planting_label": "Great planting day"
+  },
+
+  "assessment": {
+    "date": "2026-04-06",
+    "total_plants": 7,
+    "counts": {
+      "healthy": 3,
+      "stressed": 2,
+      "struggling": 1,
+      "recovering": 1
+    },
+    "one_thing": "Do a scratch test on the weeping maple in the parking strip — scratch the bark on bare branches with your fingernail. Green underneath means it's alive. Brown means it's time to let go.",
+    "one_thing_time": "5 min",
+    "big_picture": "You have good taste in plants and a clear design vision — the black fence, black planters, and architectural plant choices tell a cohesive story. Your outdoor landscape is strong: the upright Japanese maple is a showstopper, and the nandina is perfectly placed. The indoor plants need more attention — the orchid is in survival mode and the Bird of Paradise is in the wrong spot. The weeping maple in the parking strip is the one real concern: it may be past saving, and an honest assessment now saves months of false hope.",
+    "lifestyle_tip": {
+      "label": "Weekend idea",
+      "text": "Your Japanese maple's coral-red spring foliage is at peak color right now. Clip a few small branches for a striking tabletop arrangement — they last about a week in water and look gorgeous against your black interior palette."
+    }
+  },
+
+  "seasonal_plan": {
+    "season": "Spring",
+    "time_per_week": "~30 min/week",
+    "weeks": [
+      {
+        "label": "This week",
+        "active": true,
+        "tasks": "Scratch test maple, cut orchid spikes"
+      },
+      {
+        "label": "Next week",
+        "active": false,
+        "tasks": "Move Bird of Paradise"
+      },
+      {
+        "label": "Apr 21",
+        "active": false,
+        "tasks": "Mulch weeping maple"
+      }
+    ]
+  },
+
+  "spaces": [
+    {
+      "id": "space-windowsill",
+      "name": "Windowsill",
+      "type": "indoor",
+      "location_detail": "Filtered light window",
+      "light": "Filtered indirect",
+      "light_hours": "~3–4 hrs",
+      "humidity": "~35% (estimated)",
+      "humidity_note": "Low for tropicals",
+      "drafts": "Unlikely",
+      "drafts_note": "Interior window, stable temp",
+      "soil_type": "Orchid bark mix",
+      "soil_note": "Specialized medium",
+      "plant_count": 1,
+      "status": "recovering",
+      "status_label": "Recovering",
+      "status_detail": "Orchid in post-bloom recovery — needs dead spike removal",
+      "photo": "IMG_7565.jpeg",
+      "photo_dates": ["2026-04-06"],
+      "coach_note": "The orchid is in survival mode but not dying — the leaves are firm and green, which is a good sign. Cut the dead spikes, check the roots, and give it 6–12 months. Patience is the whole game with orchids.",
+      "coach_note_date": "2026-04-06",
+      "plants": ["plant-orchid"]
+    },
+    {
+      "id": "space-stairwell",
+      "name": "Stairwell",
+      "type": "indoor",
+      "location_detail": "Near stair railing",
+      "light": "Low indirect",
+      "light_hours": "~2 hrs",
+      "humidity": "~30% (estimated)",
+      "humidity_note": "Very low",
+      "drafts": "Possible",
+      "drafts_note": "Stairwell airflow",
+      "soil_type": "Potting mix",
+      "soil_note": "Standard, pre-bagged",
+      "plant_count": 1,
+      "status": "needs_attention",
+      "status_label": "Needs attention",
+      "status_detail": "Bird of Paradise is struggling — wrong location for this plant",
+      "photo": "IMG_7564.jpeg",
+      "photo_dates": ["2026-04-06"],
+      "coach_note": "Real talk: Birds of Paradise are outdoor plants pretending to be houseplants. This one needs bright direct sun, high humidity, and room to grow. The stairwell isn't giving it any of that. Move it to your brightest window, or better yet, put it on your patio May through September. If you want something that actually thrives here, a Monstera or Fiddle Leaf Fig would be much happier.",
+      "coach_note_date": "2026-04-06",
+      "plants": ["plant-bop"]
+    },
+    {
+      "id": "space-landscape-bed",
+      "name": "Front landscape bed",
+      "type": "outdoor",
+      "location_detail": "Along black fence",
+      "light": "Full to partial sun",
+      "light_hours": "5–7 hrs",
+      "humidity": "Outdoor ambient",
+      "humidity_note": "PNW spring — adequate",
+      "drafts": "N/A",
+      "drafts_note": "Outdoor",
+      "soil_type": "Gravel mulch over native soil",
+      "soil_note": "Well-draining, may be lean",
+      "plant_count": 3,
+      "status": "mostly_healthy",
+      "status_label": "Mostly healthy",
+      "status_detail": "Nandina and upright maple thriving — watch for afternoon heat stress",
+      "photo": "IMG_7563.jpeg",
+      "photo_dates": ["2026-04-06"],
+      "coach_note": "This is the strongest part of your garden. The upright maple is the focal point — beautiful coral-red spring foliage, good branch structure, well-scaled for the space. The nandina's red new growth against the black fence is striking. Just keep an eye on afternoon sun and soil moisture as summer heats up.",
+      "coach_note_date": "2026-04-06",
+      "rearrangement_tip": "The nandina is well placed against the fence — keep it there. If the weeping maple doesn't recover, consider replacing it with a dwarf conifer or ornamental grass that can handle parking strip conditions.",
+      "plants": ["plant-nandina", "plant-maple-upright", "plant-maple-weeping"]
+    },
+    {
+      "id": "space-front-planter",
+      "name": "Front entry planter",
+      "type": "outdoor",
+      "location_detail": "Black rectangular container",
+      "light": "Full sun",
+      "light_hours": "6+ hrs",
+      "humidity": "Outdoor ambient",
+      "humidity_note": "Container dries fast",
+      "drafts": "N/A",
+      "drafts_note": "Outdoor, exposed",
+      "soil_type": "Container mix with bark mulch",
+      "soil_note": "Appears well-draining",
+      "plant_count": 2,
+      "status": "healthy",
+      "status_label": "Healthy",
+      "status_detail": "Dwarf conifers looking good — plan for future sizing",
+      "photo": "IMG_7560.jpeg",
+      "photo_dates": ["2026-04-06"],
+      "coach_note": "The chartreuse conifer against the black planter is a great design choice — you clearly think about color contrast. Just know these will outgrow this container in 2–3 years. Plan ahead: move them to the ground, upsize the pot, or treat them as temporary and replace when they get too big.",
+      "coach_note_date": "2026-04-06",
+      "plants": ["plant-conifer-gold", "plant-conifer-green"]
+    }
+  ],
+
+  "plants": [
+    {
+      "id": "plant-orchid",
+      "space_id": "space-windowsill",
+      "name": "Orchid",
+      "species": "Phalaenopsis",
+      "common_name": "Moth orchid",
+      "location_in_space": "Windowsill",
+      "status": "recovering",
+      "status_label": "Recovering",
+      "status_detail": "Post-bloom recovery — survival mode, not thriving",
+      "photo": "IMG_7565.jpeg",
+      "identified_date": "2026-04-06",
+      "estimated_age": null,
+      "trend": null,
+      "trend_note": null,
+      "diagnosis": "Flower spikes are spent and need removal. Only 3–4 leaves remaining — healthy orchids typically have 6+. Leaves look firm and green, which is encouraging. This orchid has been through stress but the fundamentals are intact.",
+      "real_talk": "This orchid is in survival mode, not thriving. The bare flower stems need to go. If the roots are healthy, it can rebloom in 6–12 months. If roots are mushy, it needs repotting immediately.",
+      "recovery_plan": [
+        {
+          "step": 1,
+          "title": "Cut the dead spikes",
+          "description": "Snip them at the base with sterile scissors. They're not reblooming from those stems.",
+          "time": "5 min",
+          "when": "This week",
+          "priority": "now"
+        },
+        {
+          "step": 2,
+          "title": "Check roots",
+          "description": "Gently remove from pot. Healthy roots are green/silver and firm. Brown/mushy = root rot — trim and repot.",
+          "time": "10 min",
+          "when": "This week",
+          "priority": "now"
+        },
+        {
+          "step": 3,
+          "title": "Repot if needed",
+          "description": "Fresh orchid bark mix, same pot size or slightly smaller. Don't oversize the pot.",
+          "time": "15 min",
+          "when": "If roots are bad",
+          "priority": "conditional"
+        },
+        {
+          "step": 4,
+          "title": "Watering routine",
+          "description": "Soak weekly, let drain completely. Never let it sit in water. That filtered window light is perfect — keep it there.",
+          "time": "2 min/week",
+          "when": "Ongoing",
+          "priority": "ongoing"
+        }
+      ],
+      "recovery_timeline": "6–12 months to rebloom if roots are healthy. Patience required.",
+      "care_info": {
+        "light_needs": "Bright indirect / filtered",
+        "watering": "Weekly soak, drain fully",
+        "soil": "Orchid bark mix",
+        "humidity": "Moderate preferred"
+      }
+    },
+    {
+      "id": "plant-bop",
+      "space_id": "space-stairwell",
+      "name": "Bird of Paradise",
+      "species": "Strelitzia nicolai",
+      "common_name": "Giant Bird of Paradise",
+      "location_in_space": "Stairwell floor",
+      "status": "struggling",
+      "status_label": "Struggling",
+      "status_detail": "Wrong location — this is an outdoor plant forced indoors",
+      "photo": "IMG_7564.jpeg",
+      "identified_date": "2026-04-06",
+      "estimated_age": null,
+      "trend": null,
+      "trend_note": null,
+      "diagnosis": "Brown, crispy leaf edges from low humidity and inconsistent watering. Tattered leaves — possibly from physical contact with walls. Leggy growth reaching for light. No new growth visible, which means it's stalled.",
+      "real_talk": "Birds of Paradise are outdoor plants pretending to be houseplants. They want bright direct sun (6+ hours), high humidity, and room to grow — they hit 6–8 feet indoors, 20+ outdoors. The stairwell gives it none of that. If you want low-maintenance indoor greenery, a Monstera or Fiddle Leaf Fig would be much happier here.",
+      "recovery_plan": [
+        {
+          "step": 1,
+          "title": "Move to brightest window",
+          "description": "South or west-facing, as close to glass as possible. This is the single biggest thing you can do.",
+          "time": "5 min",
+          "when": "Next week",
+          "priority": "soon"
+        },
+        {
+          "step": 2,
+          "title": "Increase humidity",
+          "description": "Pebble tray, humidifier, or group with other plants. This plant needs moisture in the air.",
+          "time": "10 min",
+          "when": "Next week",
+          "priority": "soon"
+        },
+        {
+          "step": 3,
+          "title": "Trim damaged leaves",
+          "description": "Cut the worst ones at the base to redirect energy to new growth.",
+          "time": "10 min",
+          "when": "Next week",
+          "priority": "soon"
+        },
+        {
+          "step": 4,
+          "title": "Water deeply",
+          "description": "When top 2\" dry, soak until water drains. Empty saucer — never let it sit in water.",
+          "time": "5 min/week",
+          "when": "Ongoing",
+          "priority": "ongoing"
+        },
+        {
+          "step": 5,
+          "title": "Consider summer outdoors",
+          "description": "This plant would love a patio spot May through September. That's its natural habitat.",
+          "time": "5 min",
+          "when": "May",
+          "priority": "future"
+        }
+      ],
+      "recovery_timeline": "Visible improvement in 4–6 weeks if relocated. Full recovery takes a growing season.",
+      "care_info": {
+        "light_needs": "Bright direct sun (6+ hrs)",
+        "watering": "Deep soak when top 2\" dry",
+        "soil": "Rich potting mix",
+        "humidity": "High preferred"
+      }
+    },
+    {
+      "id": "plant-nandina",
+      "space_id": "space-landscape-bed",
+      "name": "Nandina",
+      "species": "Nandina domestica",
+      "common_name": "Heavenly bamboo",
+      "location_in_space": "Along fence",
+      "status": "healthy",
+      "status_label": "Healthy",
+      "status_detail": "Beautiful red-orange new growth, full bushy habit, well-established",
+      "photo": "IMG_7562.jpeg",
+      "identified_date": "2026-04-06",
+      "estimated_age": "3–5 years",
+      "trend": null,
+      "trend_note": null,
+      "diagnosis": "Classic spring nandina color. Full, bushy habit, good size, well-established. Gravel mulch is appropriate for drainage. The red new growth against the black fence is a striking design choice.",
+      "real_talk": "Nandina is borderline invasive in the PNW. It spreads by rhizomes and birds eat the berries, spreading seeds. That said, this is a well-contained landscape specimen — just watch for unwanted spread.",
+      "recovery_plan": [
+        {
+          "step": 1,
+          "title": "Prune after flowering",
+          "description": "Remove oldest canes at ground level to renew growth and keep it shapely.",
+          "time": "15 min",
+          "when": "After bloom",
+          "priority": "seasonal"
+        },
+        {
+          "step": 2,
+          "title": "Watch for berries",
+          "description": "If it fruits, remove berries before birds get them — invasive concern in PNW.",
+          "time": "5 min",
+          "when": "Fall",
+          "priority": "seasonal"
+        },
+        {
+          "step": 3,
+          "title": "Check for scale",
+          "description": "Nandina gets scale insects. Look for sticky residue or sooty mold on leaves.",
+          "time": "5 min",
+          "when": "Monthly",
+          "priority": "ongoing"
+        }
+      ],
+      "recovery_timeline": null,
+      "care_info": {
+        "light_needs": "Full sun to partial shade",
+        "watering": "Moderate, drought-tolerant once established",
+        "soil": "Well-draining, not picky",
+        "humidity": "Outdoor ambient"
+      }
+    },
+    {
+      "id": "plant-maple-upright",
+      "space_id": "space-landscape-bed",
+      "name": "Japanese maple (upright)",
+      "species": "Acer palmatum",
+      "common_name": "Japanese maple",
+      "variety_guess": "Likely 'Sango Kaku' (Coral Bark) or 'Bloodgood'",
+      "location_in_space": "Center of landscape bed",
+      "status": "excellent",
+      "status_label": "Excellent",
+      "status_detail": "Beautiful coral-red spring foliage, good branch structure, well-scaled",
+      "photo": "IMG_7563.jpeg",
+      "identified_date": "2026-04-06",
+      "estimated_age": "5–8 years",
+      "trend": null,
+      "trend_note": null,
+      "diagnosis": "Beautiful coral-red new foliage — classic spring color for many varieties. Good branch structure with well-pruned, open canopy. Appropriately sized for the space. This is the focal point of the garden.",
+      "real_talk": null,
+      "recovery_plan": [
+        {
+          "step": 1,
+          "title": "Protect from afternoon sun",
+          "description": "That gravel bed + south/west exposure = heat stress risk. Consider light afternoon shade in summer.",
+          "time": "Assess",
+          "when": "June–Aug",
+          "priority": "seasonal"
+        },
+        {
+          "step": 2,
+          "title": "Keep soil moist",
+          "description": "Maples hate drying out. Gravel mulch helps, but check soil moisture weekly in summer.",
+          "time": "5 min/week",
+          "when": "Summer",
+          "priority": "seasonal"
+        },
+        {
+          "step": 3,
+          "title": "No pruning now",
+          "description": "Wait until dormant season (late fall/winter) for any structural pruning.",
+          "time": "0 min",
+          "when": "Now",
+          "priority": "wait"
+        },
+        {
+          "step": 4,
+          "title": "Watch for leaf scorch",
+          "description": "Brown edges in summer = too much sun or dry soil. Address immediately.",
+          "time": "Observe",
+          "when": "Summer",
+          "priority": "seasonal"
+        }
+      ],
+      "recovery_timeline": null,
+      "care_info": {
+        "light_needs": "Partial sun, protect from hot afternoon",
+        "watering": "Consistent moisture, never dry",
+        "soil": "Rich, well-draining, slightly acidic",
+        "humidity": "Outdoor ambient"
+      }
+    },
+    {
+      "id": "plant-maple-weeping",
+      "space_id": "space-landscape-bed",
+      "name": "Japanese maple (weeping)",
+      "species": "Acer palmatum dissectum",
+      "common_name": "Weeping Japanese maple",
+      "location_in_space": "Parking strip",
+      "status": "stressed",
+      "status_label": "Stressed",
+      "status_detail": "Sparse canopy, dead branches, struggling in parking strip conditions",
+      "photo": "IMG_7561.jpeg",
+      "identified_date": "2026-04-06",
+      "estimated_age": "5–10 years",
+      "trend": null,
+      "trend_note": null,
+      "diagnosis": "Very sparse leaf coverage — should be much fuller by early April. Some dead branches visible in the canopy. The parking strip location is brutal: gravel/poor soil, full exposure, possible root compaction from foot traffic, and winter cold snaps. This tree is struggling.",
+      "real_talk": "Weeping maples are beautiful but demanding. This parking strip location — gravel, full exposure, compacted soil — is challenging for any maple. The hard truth: this tree may not make it. Do the scratch test first. If most branches are alive, it's worth trying to save. If not, a fresh start with a tougher species might be the kinder choice.",
+      "recovery_plan": [
+        {
+          "step": 1,
+          "title": "Scratch test",
+          "description": "Scratch bark on bare branches with your fingernail. Green underneath = alive. Brown = dead, prune it out.",
+          "time": "5 min",
+          "when": "This week",
+          "priority": "now"
+        },
+        {
+          "step": 2,
+          "title": "Deep water weekly",
+          "description": "Parking strips dry out fast. Give it a long, slow soak once a week through summer.",
+          "time": "10 min/week",
+          "when": "Now through fall",
+          "priority": "ongoing"
+        },
+        {
+          "step": 3,
+          "title": "Add wood mulch",
+          "description": "2–3\" of wood mulch (not gravel) around the base to retain moisture and regulate soil temperature.",
+          "time": "20 min",
+          "when": "This month",
+          "priority": "soon"
+        },
+        {
+          "step": 4,
+          "title": "Fertilize lightly",
+          "description": "Compost or slow-release fertilizer in spring to support recovery.",
+          "time": "10 min",
+          "when": "This month",
+          "priority": "soon"
+        },
+        {
+          "step": 5,
+          "title": "Monitor and decide",
+          "description": "If no improvement by June, consider replacement. Sometimes a fresh start is better than nursing a failing tree.",
+          "time": "Observe",
+          "when": "June",
+          "priority": "future"
+        }
+      ],
+      "recovery_timeline": "If alive, visible improvement by June. If no change by midsummer, consider replacing.",
+      "care_info": {
+        "light_needs": "Partial shade preferred, full sun tolerable",
+        "watering": "Consistent deep watering",
+        "soil": "Rich, moist, amended — opposite of current gravel",
+        "humidity": "Outdoor ambient"
+      }
+    },
+    {
+      "id": "plant-conifer-gold",
+      "space_id": "space-front-planter",
+      "name": "Dwarf golden conifer",
+      "species": "Thuja (likely 'Golden Globe' or similar)",
+      "common_name": "Golden globe arborvitae",
+      "location_in_space": "Black planter, left",
+      "status": "healthy",
+      "status_label": "Healthy",
+      "status_detail": "Bright chartreuse color, good shape, well-placed for color contrast",
+      "photo": "IMG_7560.jpeg",
+      "identified_date": "2026-04-06",
+      "estimated_age": "1–2 years",
+      "trend": null,
+      "trend_note": null,
+      "diagnosis": "Healthy, bright chartreuse color. Good contrast against the black planter — clearly an intentional design choice. Currently well-sized for the container.",
+      "real_talk": "This conifer will outgrow the container in 2–3 years. Plan ahead: either move it to the ground, root prune and upsize the pot, or treat it as temporary and replace when it gets too big.",
+      "recovery_plan": [],
+      "recovery_timeline": null,
+      "care_info": {
+        "light_needs": "Full sun for best color",
+        "watering": "Regular, containers dry faster than ground",
+        "soil": "Well-draining container mix",
+        "humidity": "Outdoor ambient"
+      }
+    },
+    {
+      "id": "plant-conifer-green",
+      "space_id": "space-front-planter",
+      "name": "Dwarf green conifer",
+      "species": "Chamaecyparis or similar",
+      "common_name": "Dwarf cypress",
+      "location_in_space": "Black planter, right",
+      "status": "healthy",
+      "status_label": "Healthy",
+      "status_detail": "Good texture contrast with the golden conifer",
+      "photo": "IMG_7560.jpeg",
+      "identified_date": "2026-04-06",
+      "estimated_age": "1–2 years",
+      "trend": null,
+      "trend_note": null,
+      "diagnosis": "Healthy, good form. Provides texture variation paired with the chartreuse conifer — fine foliage vs. chunky globe. Same container outgrowth timeline applies.",
+      "real_talk": null,
+      "recovery_plan": [],
+      "recovery_timeline": null,
+      "care_info": {
+        "light_needs": "Full sun to partial shade",
+        "watering": "Regular, keep container moist",
+        "soil": "Well-draining container mix",
+        "humidity": "Outdoor ambient"
+      }
+    }
+  ],
+
+  "soil_profiles": [
+    {
+      "label": "Landscape bed",
+      "description": "Native soil with gravel mulch top — well-draining, possibly lean"
+    },
+    {
+      "label": "Parking strip",
+      "description": "Compacted gravel/soil mix — poor conditions, needs amendment"
+    },
+    {
+      "label": "Containers",
+      "description": "Bark mulch over container mix — standard, well-draining"
+    },
+    {
+      "label": "Indoor pots",
+      "description": "Orchid bark mix (orchid), standard potting mix (Bird of Paradise)"
+    }
+  ],
+
+  "photos": {
+    "IMG_7565.jpeg": {
+      "description": "Orchid on windowsill",
+      "space_id": "space-windowsill",
+      "plant_ids": ["plant-orchid"],
+      "date": "2026-04-06"
+    },
+    "IMG_7564.jpeg": {
+      "description": "Bird of Paradise in stairwell",
+      "space_id": "space-stairwell",
+      "plant_ids": ["plant-bop"],
+      "date": "2026-04-06"
+    },
+    "IMG_7563.jpeg": {
+      "description": "Upright Japanese maple and landscape bed",
+      "space_id": "space-landscape-bed",
+      "plant_ids": ["plant-maple-upright", "plant-nandina"],
+      "date": "2026-04-06"
+    },
+    "IMG_7562.jpeg": {
+      "description": "Nandina against black fence",
+      "space_id": "space-landscape-bed",
+      "plant_ids": ["plant-nandina"],
+      "date": "2026-04-06"
+    },
+    "IMG_7561.jpeg": {
+      "description": "Weeping Japanese maple in parking strip",
+      "space_id": "space-landscape-bed",
+      "plant_ids": ["plant-maple-weeping"],
+      "date": "2026-04-06"
+    },
+    "IMG_7560.jpeg": {
+      "description": "Dwarf conifers in black front planter",
+      "space_id": "space-front-planter",
+      "plant_ids": ["plant-conifer-gold", "plant-conifer-green"],
+      "date": "2026-04-06"
+    }
+  }
+}
